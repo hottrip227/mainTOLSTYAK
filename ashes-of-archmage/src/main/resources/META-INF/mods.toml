@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[66,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="ashes_of_archmage"
+version="0.1.0"
+displayName="Ashes of Archmage"
+authors="Archmage project team"
+description='''Technical bootstrap for a single-player dark-fantasy RPG mod.
+This version has no playable campaign, spells, or Mind Palace yet.'''
+
+[[dependencies.ashes_of_archmage]]
+modId="forge"
+mandatory=true
+versionRange="[66.0.10,67)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.ashes_of_archmage]]
+modId="minecraft"
+mandatory=true
+versionRange="[26.3,26.4)"
+ordering="NONE"
+side="BOTH"
