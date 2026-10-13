@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:function",
+  "function": "ashes_of_archmage:player_flow",
+  "environment": "minecraft:default",
+  "structure": "forge:empty3x3x3",
+  "max_ticks": 200
+}

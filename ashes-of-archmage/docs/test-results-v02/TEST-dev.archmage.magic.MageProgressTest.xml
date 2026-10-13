@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.archmage.magic.MageProgressTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-10-13T15:56:11.135Z" hostname="01592725-04a" time="0.011">
+  <properties/>
+  <testcase name="allTenSphereIdsAreUnique()" classname="dev.archmage.magic.MageProgressTest" time="0.002"/>
+  <testcase name="equippedSpellsCanChangeWithoutForgetting()" classname="dev.archmage.magic.MageProgressTest" time="0.002"/>
+  <testcase name="invalidInputsAreRejected()" classname="dev.archmage.magic.MageProgressTest" time="0.001"/>
+  <testcase name="missingSphereOrEssenceDoesNotConsumeRewards()" classname="dev.archmage.magic.MageProgressTest" time="0.001"/>
+  <testcase name="learningSpendsEssenceOnlyOnce()" classname="dev.archmage.magic.MageProgressTest" time="0.001"/>
+  <testcase name="aNewMageHasNoPower()" classname="dev.archmage.magic.MageProgressTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

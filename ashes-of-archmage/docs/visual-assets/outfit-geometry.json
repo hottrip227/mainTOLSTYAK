@@ -1,0 +1,982 @@
+[
+  {
+    "part": "body",
+    "name": "collar_back",
+    "from_": [
+      -6.1,
+      -5.2,
+      2.6
+    ],
+    "size": [
+      12.2,
+      6,
+      2
+    ],
+    "material": "onyx",
+    "uv": [
+      0,
+      0
+    ],
+    "rotation_z": 0
+  },
+  {
+    "part": "body",
+    "name": "collar_back_inlay",
+    "from_": [
+      -5.6,
+      -4.7,
+      2.45
+    ],
+    "size": [
+      11.2,
+      5,
+      0.25
+    ],
+    "material": "violet",
+    "uv": [
+      128,
+      0
+    ],
+    "rotation_z": 0
+  },
+  {
+    "part": "body",
+    "name": "collar_crown",
+    "from_": [
+      -6.2,
+      -5.5,
+      2.4
+    ],
+    "size": [
+      12.4,
+      0.5,
+      2.4
+    ],
+    "material": "gold",
+    "uv": [
+      192,
+      0
+    ],
+    "rotation_z": 0
+  },
+  {
+    "part": "body",
+    "name": "collar_side_-1",
+    "from_": [
+      -6.2,
+      -4.3,
+      -0.5
+    ],
+    "size": [
+      1.7,
+      4.7,
+      3.2
+    ],
+    "material": "onyx",
+    "uv": [
+      0,
+      0
+    ],
+    "rotation_z": 0
+  },
+  {
+    "part": "body",
+    "name": "collar_edge_-1",
+    "from_": [
+      -6.2,
+      -4.6,
+      -0.6
+    ],
+    "size": [
+      1.7,
+      0.5,
+      3.4
+    ],
+    "material": "gold",
+    "uv": [
+      192,
+      0
+    ],
+    "rotation_z": 0
+  },
+  {
+    "part": "right_arm",
+    "name": "pauldron_-1",
+    "from_": [
+      -4.5,
+      -3.7,
+      -3.3
+    ],
+    "size": [
+      5.5,
+      2.2,
+      6.6
+    ],
+    "material": "onyx",
+    "uv": [
+      0,
+      0
+    ],
+    "rotation_z": 0
+  },
+  {
+    "part": "right_arm",
+    "name": "pauldron_gold_-1",
+    "from_": [
+      -4.5,
+      -4.0,
+      -3.4
+    ],
+    "size": [
+      5.5,
+      0.55,
+      6.8
+    ],
+    "material": "gold",
+    "uv": [
+      192,
+      0
+    ],
+    "rotation_z": 0
+  },
+  {
+    "part": "right_arm",
+    "name": "pauldron_inlay_-1",
+    "from_": [
+      -4.0,
+      -4.25,
+      -2.8
+    ],
+    "size": [
+      4.5,
+      0.45,
+      5.6
+    ],
+    "material": "plum",
+    "uv": [
+      64,
+      0
+    ],
+    "rotation_z": 0
+  },
+  {
+    "part": "right_arm",
+    "name": "shoulder_spire_-1",
+    "from_": [
+      -5.4,
+      -7.1,
+      -1.5
+    ],
+    "size": [
+      1.3,
+      5.2,
+      3.0
+    ],
+    "material": "onyx",
+    "uv": [
+      0,
+      0
+    ],
+    "rotation_z": -0.18
+  },
+  {
+    "part": "right_arm",
+    "name": "shoulder_spire_gold_-1",
+    "from_": [
+      -5.4,
+      -7.4,
+      -1.65
+    ],
+    "size": [
+      1.3,
+      0.6,
+      3.3
+    ],
+    "material": "gold_light",
+    "uv": [
+      0,
+      64
+    ],
+    "rotation_z": -0.18
+  },
+  {
+    "part": "right_arm",
+    "name": "cuff_-1",
+    "from_": [
+      -3.3,
+      7.1,
+      -2.3
+    ],
+    "size": [
+      4.6,
+      1.25,
+      4.6
+    ],
+    "material": "gold",
+    "uv": [
+      192,
+      0
+    ],
+    "rotation_z": 0
+  },
+  {
+    "part": "right_arm",
+    "name": "cuff_inlay_-1",
+    "from_": [
+      -3.0999999999999996,
+      7.35,
+      -2.45
+    ],
+    "size": [
+      4.2,
+      0.7,
+      0.3
+    ],
+    "material": "plum",
+    "uv": [
+      64,
+      0
+    ],
+    "rotation_z": 0
+  },
+  {
+    "part": "body",
+    "name": "collar_side_1",
+    "from_": [
+      4.5,
+      -4.3,
+      -0.5
+    ],
+    "size": [
+      1.7,
+      4.7,
+      3.2
+    ],
+    "material": "onyx",
+    "uv": [
+      0,
+      0
+    ],
+    "rotation_z": 0
+  },
+  {
+    "part": "body",
+    "name": "collar_edge_1",
+    "from_": [
+      4.5,
+      -4.6,
+      -0.6
+    ],
+    "size": [
+      1.7,
+      0.5,
+      3.4
+    ],
+    "material": "gold",
+    "uv": [
+      192,
+      0
+    ],
+    "rotation_z": 0
+  },
+  {
+    "part": "left_arm",
+    "name": "pauldron_1",
+    "from_": [
+      -1,
+      -3.7,
+      -3.3
+    ],
+    "size": [
+      5.5,
+      2.2,
+      6.6
+    ],
+    "material": "onyx",
+    "uv": [
+      0,
+      0
+    ],
+    "rotation_z": 0
+  },
+  {
+    "part": "left_arm",
+    "name": "pauldron_gold_1",
+    "from_": [
+      -1,
+      -4.0,
+      -3.4
+    ],
+    "size": [
+      5.5,
+      0.55,
+      6.8
+    ],
+    "material": "gold",
+    "uv": [
+      192,
+      0
+    ],
+    "rotation_z": 0
+  },
+  {
+    "part": "left_arm",
+    "name": "pauldron_inlay_1",
+    "from_": [
+      -0.5,
+      -4.25,
+      -2.8
+    ],
+    "size": [
+      4.5,
+      0.45,
+      5.6
+    ],
+    "material": "plum",
+    "uv": [
+      64,
+      0
+    ],
+    "rotation_z": 0
+  },
+  {
+    "part": "left_arm",
+    "name": "shoulder_spire_1",
+    "from_": [
+      3.9,
+      -7.1,
+      -1.5
+    ],
+    "size": [
+      1.3,
+      5.2,
+      3.0
+    ],
+    "material": "onyx",
+    "uv": [
+      0,
+      0
+    ],
+    "rotation_z": 0.18
+  },
+  {
+    "part": "left_arm",
+    "name": "shoulder_spire_gold_1",
+    "from_": [
+      3.9,
+      -7.4,
+      -1.65
+    ],
+    "size": [
+      1.3,
+      0.6,
+      3.3
+    ],
+    "material": "gold_light",
+    "uv": [
+      0,
+      64
+    ],
+    "rotation_z": 0.18
+  },
+  {
+    "part": "left_arm",
+    "name": "cuff_1",
+    "from_": [
+      -1.3,
+      7.1,
+      -2.3
+    ],
+    "size": [
+      4.6,
+      1.25,
+      4.6
+    ],
+    "material": "gold",
+    "uv": [
+      192,
+      0
+    ],
+    "rotation_z": 0
+  },
+  {
+    "part": "left_arm",
+    "name": "cuff_inlay_1",
+    "from_": [
+      -1.1,
+      7.35,
+      -2.45
+    ],
+    "size": [
+      4.2,
+      0.7,
+      0.3
+    ],
+    "material": "plum",
+    "uv": [
+      64,
+      0
+    ],
+    "rotation_z": 0
+  },
+  {
+    "part": "head",
+    "name": "hair_crown",
+    "from_": [
+      -4.25,
+      -8.5,
+      -3.9
+    ],
+    "size": [
+      8.5,
+      1.15,
+      8.4
+    ],
+    "material": "silver",
+    "uv": [
+      64,
+      64
+    ],
+    "rotation_z": 0
+  },
+  {
+    "part": "head",
+    "name": "hair_back",
+    "from_": [
+      -4.2,
+      -7.7,
+      3.35
+    ],
+    "size": [
+      8.4,
+      13.5,
+      1.25
+    ],
+    "material": "silver_dark",
+    "uv": [
+      192,
+      64
+    ],
+    "rotation_z": 0
+  },
+  {
+    "part": "head",
+    "name": "back_strand_0",
+    "from_": [
+      -3.6,
+      -7.7,
+      4.35
+    ],
+    "size": [
+      1.2,
+      13.3,
+      0.35
+    ],
+    "material": "silver_light",
+    "uv": [
+      128,
+      64
+    ],
+    "rotation_z": 0
+  },
+  {
+    "part": "head",
+    "name": "back_strand_1",
+    "from_": [
+      -1.8,
+      -7.7,
+      4.35
+    ],
+    "size": [
+      1.2,
+      12.3,
+      0.35
+    ],
+    "material": "silver",
+    "uv": [
+      64,
+      64
+    ],
+    "rotation_z": 0
+  },
+  {
+    "part": "head",
+    "name": "back_strand_2",
+    "from_": [
+      0,
+      -7.7,
+      4.35
+    ],
+    "size": [
+      1.2,
+      13.3,
+      0.35
+    ],
+    "material": "silver_light",
+    "uv": [
+      128,
+      64
+    ],
+    "rotation_z": 0
+  },
+  {
+    "part": "head",
+    "name": "back_strand_3",
+    "from_": [
+      1.8,
+      -7.7,
+      4.35
+    ],
+    "size": [
+      1.2,
+      12.3,
+      0.35
+    ],
+    "material": "silver",
+    "uv": [
+      64,
+      64
+    ],
+    "rotation_z": 0
+  },
+  {
+    "part": "head",
+    "name": "back_strand_4",
+    "from_": [
+      3.6,
+      -7.7,
+      4.35
+    ],
+    "size": [
+      1.2,
+      13.3,
+      0.35
+    ],
+    "material": "silver_light",
+    "uv": [
+      128,
+      64
+    ],
+    "rotation_z": 0
+  },
+  {
+    "part": "head",
+    "name": "hair_side_-1",
+    "from_": [
+      -4.55,
+      -7.3,
+      -2.0
+    ],
+    "size": [
+      0.95,
+      9.5,
+      5.6
+    ],
+    "material": "silver",
+    "uv": [
+      64,
+      64
+    ],
+    "rotation_z": 0
+  },
+  {
+    "part": "head",
+    "name": "front_strand_-1",
+    "from_": [
+      -3.25,
+      -7.3,
+      -4.55
+    ],
+    "size": [
+      1.2,
+      12.1,
+      0.9
+    ],
+    "material": "silver",
+    "uv": [
+      64,
+      64
+    ],
+    "rotation_z": 0
+  },
+  {
+    "part": "head",
+    "name": "front_strand_light_-1",
+    "from_": [
+      -3.1,
+      -7.3,
+      -4.7
+    ],
+    "size": [
+      0.45,
+      11.6,
+      0.2
+    ],
+    "material": "silver_light",
+    "uv": [
+      128,
+      64
+    ],
+    "rotation_z": 0
+  },
+  {
+    "part": "head",
+    "name": "hair_side_1",
+    "from_": [
+      3.6,
+      -7.3,
+      -2.0
+    ],
+    "size": [
+      0.95,
+      9.5,
+      5.6
+    ],
+    "material": "silver",
+    "uv": [
+      64,
+      64
+    ],
+    "rotation_z": 0
+  },
+  {
+    "part": "head",
+    "name": "front_strand_1",
+    "from_": [
+      2.05,
+      -7.3,
+      -4.55
+    ],
+    "size": [
+      1.2,
+      12.1,
+      0.9
+    ],
+    "material": "silver",
+    "uv": [
+      64,
+      64
+    ],
+    "rotation_z": 0
+  },
+  {
+    "part": "head",
+    "name": "front_strand_light_1",
+    "from_": [
+      2.1999999999999997,
+      -7.3,
+      -4.7
+    ],
+    "size": [
+      0.45,
+      11.6,
+      0.2
+    ],
+    "material": "silver_light",
+    "uv": [
+      128,
+      64
+    ],
+    "rotation_z": 0
+  },
+  {
+    "part": "cape",
+    "name": "cape_back",
+    "from_": [
+      -6.1,
+      1,
+      3.15
+    ],
+    "size": [
+      12.2,
+      21,
+      0.65
+    ],
+    "material": "plum",
+    "uv": [
+      64,
+      0
+    ],
+    "rotation_z": 0
+  },
+  {
+    "part": "cape",
+    "name": "cape_lining",
+    "from_": [
+      -5.5,
+      1.5,
+      3.0
+    ],
+    "size": [
+      11,
+      19.8,
+      0.2
+    ],
+    "material": "violet",
+    "uv": [
+      128,
+      0
+    ],
+    "rotation_z": 0
+  },
+  {
+    "part": "cape",
+    "name": "cape_edge_-6.15",
+    "from_": [
+      -6.15,
+      1,
+      2.95
+    ],
+    "size": [
+      0.55,
+      21,
+      1.0
+    ],
+    "material": "gold",
+    "uv": [
+      192,
+      0
+    ],
+    "rotation_z": 0
+  },
+  {
+    "part": "cape",
+    "name": "cape_edge_5.6",
+    "from_": [
+      5.6,
+      1,
+      2.95
+    ],
+    "size": [
+      0.55,
+      21,
+      1.0
+    ],
+    "material": "gold",
+    "uv": [
+      192,
+      0
+    ],
+    "rotation_z": 0
+  },
+  {
+    "part": "cape",
+    "name": "cape_hem",
+    "from_": [
+      -6.1,
+      21.5,
+      2.95
+    ],
+    "size": [
+      12.2,
+      0.55,
+      1.0
+    ],
+    "material": "gold",
+    "uv": [
+      192,
+      0
+    ],
+    "rotation_z": 0
+  },
+  {
+    "part": "cape",
+    "name": "memory_seal_0",
+    "from_": [
+      -0.5,
+      8,
+      3.83
+    ],
+    "size": [
+      1,
+      1,
+      0.22
+    ],
+    "material": "gold",
+    "uv": [
+      192,
+      0
+    ],
+    "rotation_z": 0
+  },
+  {
+    "part": "cape",
+    "name": "memory_seal_1",
+    "from_": [
+      -1.0,
+      9,
+      3.83
+    ],
+    "size": [
+      2,
+      1,
+      0.22
+    ],
+    "material": "gold",
+    "uv": [
+      192,
+      0
+    ],
+    "rotation_z": 0
+  },
+  {
+    "part": "cape",
+    "name": "memory_seal_2",
+    "from_": [
+      -1.5,
+      10,
+      3.83
+    ],
+    "size": [
+      3,
+      1,
+      0.22
+    ],
+    "material": "gold",
+    "uv": [
+      192,
+      0
+    ],
+    "rotation_z": 0
+  },
+  {
+    "part": "cape",
+    "name": "memory_seal_3",
+    "from_": [
+      -1.0,
+      11,
+      3.83
+    ],
+    "size": [
+      2,
+      1,
+      0.22
+    ],
+    "material": "gold",
+    "uv": [
+      192,
+      0
+    ],
+    "rotation_z": 0
+  },
+  {
+    "part": "cape",
+    "name": "memory_seal_4",
+    "from_": [
+      -0.5,
+      12,
+      3.83
+    ],
+    "size": [
+      1,
+      1,
+      0.22
+    ],
+    "material": "gold",
+    "uv": [
+      192,
+      0
+    ],
+    "rotation_z": 0
+  },
+  {
+    "part": "cape",
+    "name": "seal_gem",
+    "from_": [
+      -0.55,
+      9.8,
+      4.02
+    ],
+    "size": [
+      1.1,
+      1.4,
+      0.18
+    ],
+    "material": "violet",
+    "uv": [
+      128,
+      0
+    ],
+    "rotation_z": 0
+  },
+  {
+    "part": "body",
+    "name": "tabard",
+    "from_": [
+      -1.9,
+      9.7,
+      -2.75
+    ],
+    "size": [
+      3.8,
+      11.5,
+      0.5
+    ],
+    "material": "plum",
+    "uv": [
+      64,
+      0
+    ],
+    "rotation_z": 0
+  },
+  {
+    "part": "body",
+    "name": "tabard_trim",
+    "from_": [
+      -2.05,
+      20.7,
+      -2.85
+    ],
+    "size": [
+      4.1,
+      0.55,
+      0.7
+    ],
+    "material": "gold",
+    "uv": [
+      192,
+      0
+    ],
+    "rotation_z": 0
+  },
+  {
+    "part": "body",
+    "name": "chest_jewel_frame",
+    "from_": [
+      -1.2,
+      1.5,
+      -2.45
+    ],
+    "size": [
+      2.4,
+      2.4,
+      0.5
+    ],
+    "material": "gold",
+    "uv": [
+      192,
+      0
+    ],
+    "rotation_z": 0
+  },
+  {
+    "part": "body",
+    "name": "chest_jewel",
+    "from_": [
+      -0.65,
+      2.05,
+      -2.75
+    ],
+    "size": [
+      1.3,
+      1.3,
+      0.5
+    ],
+    "material": "violet",
+    "uv": [
+      128,
+      0
+    ],
+    "rotation_z": 0
+  }
+]
