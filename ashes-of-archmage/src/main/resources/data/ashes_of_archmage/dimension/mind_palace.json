@@ -1,0 +1,18 @@
+{
+  "type": "ashes_of_archmage:mind_palace",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "ashes_of_archmage:memory_void",
+      "features": false,
+      "lakes": false,
+      "layers": [
+        {
+          "height": 1,
+          "block": "minecraft:air"
+        }
+      ],
+      "structure_overrides": []
+    }
+  }
+}

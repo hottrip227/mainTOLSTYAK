@@ -9,7 +9,7 @@ plugins {
     id 'net.minecraftforge.gradle' version '7.0.17'
 }
 
-version = '0.1.0'
+version = '0.3.1'
 group = 'dev.archmage'
 
 // Mojang ships Java 25 to end users in 26.1+, so your mod should target Java 25.
@@ -25,6 +25,7 @@ minecraft {
 
             systemProperty 'eventbus.api.strictRuntimeChecks', 'true'
             systemProperty 'forge.enabledGameTestNamespaces', 'ashes_of_archmage'
+            args '--mixin.config=ashes_of_archmage.mixins.json'
         }
 
         register('client')
@@ -33,7 +34,9 @@ minecraft {
             args '--nogui'
         }
 
-        register('gameTestServer')
+        register('gameTestServer') {
+            args '--mixin.config=archmage.gametest.mixins.json', '--tests', 'ashes_of_archmage:*', '--report', 'archmage-gametest-results.xml'
+        }
 
         register('data') {
             workingDir = layout.projectDirectory.dir('run-data')
@@ -53,6 +56,7 @@ repositories {
 dependencies {
     implementation minecraft.dependency('net.minecraftforge:forge:26.3-66.0.10')
     annotationProcessor 'net.minecraftforge:eventbus-validator:7.0.6'
+    annotationProcessor 'org.spongepowered:mixin:0.8.7:processor'
     testImplementation platform('org.junit:junit-bom:5.13.4')
     testImplementation 'org.junit.jupiter:junit-jupiter'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
@@ -65,3 +69,6 @@ tasks.withType(JavaCompile).configureEach {
 }
 
 tasks.withType(Test).configureEach { useJUnitPlatform() }
+
+// Production launcher reads this; development runs use the explicit argument above.
+tasks.named('jar', Jar) { manifest { attributes['MixinConfigs'] = 'ashes_of_archmage.mixins.json' } }

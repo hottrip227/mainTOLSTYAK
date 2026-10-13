@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.archmage.debug.testmixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "GameTestPackSelectionMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

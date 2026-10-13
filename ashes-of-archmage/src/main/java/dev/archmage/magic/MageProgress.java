@@ -10,7 +10,7 @@ import java.util.Objects;
 import java.util.Set;
 
 /**
- * Domain prototype. Does NOT save to a Minecraft player/world yet.
+ * Loader-independent magic state. PlayerMagicData persists it on the Minecraft player.
  * Essences and learned spells are data, not inventory items.
  */
 public final class MageProgress {
@@ -68,6 +68,25 @@ public final class MageProgress {
     public int slots() { return loadout.length; }
     public Set<String> learnedSpells() { return Set.copyOf(learned); }
     public Map<Sphere, Integer> sphereRanks() { return Collections.unmodifiableMap(new EnumMap<>(ranks)); }
+
+    public Map<String,Integer> essenceBalances() { return Map.copyOf(essences); }
+    public record Snapshot(Map<Sphere,Integer> ranks, Map<String,Integer> essences, Set<String> learned, List<String> loadout) {
+        public Snapshot {
+            ranks=Map.copyOf(ranks); essences=Map.copyOf(essences); learned=Set.copyOf(learned);
+            loadout=Collections.unmodifiableList(new java.util.ArrayList<>(loadout));
+        }
+    }
+    public Snapshot snapshot() {
+        return new Snapshot(ranks,essences,learned,java.util.Arrays.asList(loadout.clone()));
+    }
+    public static MageProgress fromSnapshot(Snapshot snapshot) {
+        var p=new MageProgress(snapshot.loadout().size());
+        snapshot.ranks().forEach(p::setRank);
+        snapshot.essences().forEach(p::addEssence);
+        snapshot.learned().forEach(id->{requireId(id);p.learned.add(id);});
+        for(int i=0;i<p.slots();i++) p.equip(i,snapshot.loadout().get(i));
+        return p;
+    }
 
     private void checkSlot(int slot) {
         if (slot < 0 || slot >= loadout.length) throw new IndexOutOfBoundsException("Invalid spell slot: " + slot);

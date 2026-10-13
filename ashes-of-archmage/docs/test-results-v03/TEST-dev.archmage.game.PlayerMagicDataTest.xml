@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.archmage.game.PlayerMagicDataTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-10-13T17:38:48.564Z" hostname="e4c37229-f32" time="0.58">
+  <properties/>
+  <testcase name="nbtRoundTripPreservesRanksEssencesPermanentSpellsAndEmptySlots()" classname="dev.archmage.game.PlayerMagicDataTest" time="0.575"/>
+  <testcase name="emptyNbtStartsWithTenEmptySlotsAndNoPower()" classname="dev.archmage.game.PlayerMagicDataTest" time="0.001"/>
+  <testcase name="damagedSaveClampsSlotsAndIgnoresInvalidReferences()" classname="dev.archmage.game.PlayerMagicDataTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[2026-10-13T17:38:48.975445851Z Test worker WARN Advanced terminal features are not available in this environment
+]]></system-err>
+</testsuite>

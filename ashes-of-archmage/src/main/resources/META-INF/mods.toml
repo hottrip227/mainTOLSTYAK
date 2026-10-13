@@ -4,11 +4,11 @@ license="All Rights Reserved"
 
 [[mods]]
 modId="ashes_of_archmage"
-version="0.1.0"
+version="0.3.1"
 displayName="Ashes of Archmage"
 authors="Archmage project team"
-description='''Technical bootstrap for a single-player dark-fantasy RPG mod.
-This version has no playable campaign, spells, or Mind Palace yet.'''
+description='''Single-player prototype: a real Quas sphere with frost trail,
+silver-haired archmage outfit, a floating Mind Palace and a permanent test spell. Campaign not included.'''
 
 [[dependencies.ashes_of_archmage]]
 modId="forge"
